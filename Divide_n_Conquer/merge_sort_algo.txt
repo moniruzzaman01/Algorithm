@@ -1,0 +1,16 @@
+divide:
+1. divide into two part
+2. send starting and ending index
+3. base base: starting index won't be greater or equal ending index
+
+conquer:
+1. accept starting index, mid point and ending index
+2. create left and right two array using index
+3. first arrar will be from starting index to mid index
+4. second array will be from mid+1 index to ending index
+5. both array will have an extra size where there will be stored infinity value for comparison.
+6. merge these two arrays using loop and condition. loop will run from 0 to length of arrar1+array2 and condition will be if the value of first array element is less than the value of second arrar element then set first arrar element to new array else second array element
+7. finally new array data store to the actual array. loop will run from 0 to length of new arrar. and another value j will start from starting index
+
+conquer:
+1. 
