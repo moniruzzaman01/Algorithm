@@ -1,7 +1,7 @@
 node 1: 0 
-node 2: 3 
-node 3: 5 
-node 4: 6 
-node 5: 8 
-node 6: 7 
-node 7: 6 
+node 2: 1 
+node 3: 1000000010 
+node 4: 1000000010 
+node 5: 10 
+node 6: 1000000010 
+node 7: 7 

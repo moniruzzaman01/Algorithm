@@ -50,13 +50,19 @@ int main()
     bfs(s);
     cout << "distance: " << level[d] << endl;
 
+    // for (int i = 1; i <= nodes; i++)
+    // {
+    //     cout << "node " << i << ": " << parent[i] << endl;
+    // }
+
     vector<int> path;
-    while (d != -1)
+    int curr = d;
+    while (curr != -1)
     {
-        path.push_back(d);
-        d = parent[d];
+        path.push_back(curr);
+        curr = parent[curr];
     }
-    
+
     reverse(path.begin(), path.end());
     cout << "path: ";
     for (int i : path)
@@ -64,5 +70,5 @@ int main()
         cout << i << " ";
     }
 
-    return 0;
+        return 0;
 }
