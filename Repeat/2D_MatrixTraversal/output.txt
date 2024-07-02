@@ -1,0 +1,8 @@
+dist of 0,0 - 1
+dist of 0,1 - 0
+dist of 0,2 - 1
+dist of 0,3 - 2
+dist of 1,0 - 2
+dist of 1,1 - 1
+dist of 1,2 - 2
+dist of 1,3 - 3
